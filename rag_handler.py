@@ -24,7 +24,7 @@ class VectorStorage:
             embeddings=embeddings_list,
             documents=chunks,
             ids=ids,
-            metadatas=metadata if metadata else [{}]*len(chunks)
+            metadatas=metadata or None
         )
         return ids
 
