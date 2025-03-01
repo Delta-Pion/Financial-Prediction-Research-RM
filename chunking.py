@@ -15,7 +15,7 @@ def clean_text(text):
     # Add more cleaning steps as needed
     return text.strip()
 
-def chunk_text(text, max_chunk_length=500, overlap=50):
+def chunk_text(text, max_chunk_length=500, overlap=15):
     """Chunks the text into smaller pieces based on sentences and length."""
     sentences = sent_tokenize(text)
     chunks = []
