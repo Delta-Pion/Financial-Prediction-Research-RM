@@ -1,5 +1,5 @@
- nltk
- sentence-transformers
- chromadb
- numpy
- python-ulid
+nltk
+sentence-transformers
+chromadb
+numpy
+python-ulid
