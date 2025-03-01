@@ -20,7 +20,7 @@ from rag_handler import VectorStorage
 
 # Configuration
 CONTEXT_FILE = "rag_context.md"  # File that will be added to Aider's working set
-AIDER_PATH = "aider"  # Path to Aider executable (modify if needed)
+AIDER_PATH = r"C:\Users\Aditya\.local\bin\aider.exe"  # Path to Aider executable (modify if needed)
 MAX_CONTEXT_CHUNKS = 5  # Maximum number of context chunks to include
 
 def update_context_file(query, context_chunks):
@@ -56,7 +56,7 @@ Aider will consider this information when responding.*
     with open(CONTEXT_FILE, "w", encoding="utf-8") as f:
         f.write(content)
     
-    print(f"✓ Updated {CONTEXT_FILE} with {len(context_chunks[:MAX_CONTEXT_CHUNKS])} context chunks for: {query}")
+    print(f"Updated {CONTEXT_FILE} with {len(context_chunks[:MAX_CONTEXT_CHUNKS])} context chunks for: {query}")
 
 def check_context_file_exists():
     """
@@ -103,8 +103,9 @@ def main():
     # Check if this is an Aider command (starts with /)
     if args[0].startswith('/'):
         # Just pass through to Aider if it's a command
-        print(f"Passing command directly to Aider: {' '.join(args)}")
-        subprocess.run([AIDER_PATH] + args)
+        # print(f"Passing command directly to Aider: {' '.join(args)}")
+        # subprocess.run([AIDER_PATH] + args)
+        print("We only accept queries")
         return
     
     # Otherwise, treat as a query that needs RAG enhancement
@@ -127,13 +128,14 @@ def main():
         
         # Now run Aider with the original query
         # The context file is already part of Aider's working set
-        print(f"Starting Aider with query: {query}")
-        subprocess.run([AIDER_PATH, query])
+        # print(f"Starting Aider with query: {query}")
+        # subprocess.run([AIDER_PATH, query])
+        print("Context Saved ")
         
     except Exception as e:
         print(f"Error during RAG processing: {str(e)}")
         print("Falling back to standard Aider...")
-        subprocess.run([AIDER_PATH] + args)
+        # subprocess.run([AIDER_PATH] + args)
 
 if __name__ == "__main__":
     main()
