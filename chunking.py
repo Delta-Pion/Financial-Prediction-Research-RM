@@ -1,6 +1,11 @@
 import re
 import nltk
-nltk.download('punkt')  # Download the sentence tokenizer if you haven't already
+try:
+    nltk.download('punkt')
+    nltk.download('punkt_tab')
+except Exception as e:
+    print(f"Warning: NLTK download error: {e}")
+    print("If download fails, try running Python as administrator")
 from nltk.tokenize import sent_tokenize
 
 def clean_text(text):
