@@ -56,7 +56,7 @@ Aider will consider this information when responding.*
     with open(CONTEXT_FILE, "w", encoding="utf-8") as f:
         f.write(content)
     
-    print(f"Updated {CONTEXT_FILE} with {len(context_chunks[:MAX_CONTEXT_CHUNKS])} context chunks for: {query}")
+    print(f"+ Updated {CONTEXT_FILE} with {len(context_chunks[:MAX_CONTEXT_CHUNKS])} context chunks for: {query}")
 
 def check_context_file_exists():
     """
