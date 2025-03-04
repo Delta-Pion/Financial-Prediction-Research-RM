@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from aider.coders import Coder
 from aider.models import Model
 
-load_dotenv("E:\Artifical Intelligence\Research\Finance Research\.env")
+load_dotenv(r"E:\Artifical Intelligence\Research\Finance Research\.env")
 # This is a list of files to add to the chat
 fnames = ["greeting.py"]
 
