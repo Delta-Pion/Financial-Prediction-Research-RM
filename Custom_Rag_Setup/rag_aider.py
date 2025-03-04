@@ -1,11 +1,3 @@
-from dotenv import load_dotenv
-from aider.coders import Coder
-from aider.models import Model
-
-load_dotenv()
-model = Model("openrouter/google/gemini-2.0-flash-001")
-coder = Coder.create(main_model=model, edit_format="ask")
-
 #!/usr/bin/env python3
 """
 RAG-Enhanced Aider Wrapper
@@ -27,7 +19,7 @@ import time
 from rag_handler import VectorStorage
 
 # Configuration
-CONTEXT_FILE = "rag_context.md"  # File that will be added to Aider's working set
+CONTEXT_FILE = r"E:\Artifical Intelligence\Research\Finance Research\Custom_Rag_Setup\rag_context.md"  # File that will be added to Aider's working set
 AIDER_PATH = r"C:\Users\Aditya\.local\bin\aider.exe"  # Path to Aider executable (modify if needed)
 MAX_CONTEXT_CHUNKS = 8  # Maximum number of context chunks to include
 
@@ -136,7 +128,7 @@ def main():
         
         # Now run Aider with the original query
         # The context file is already part of Aider's working set
-        print(f"Starting Aider with query: {query}")
+        #print(f"Starting Aider with query: {query}")
         
         # subprocess.run([AIDER_PATH, query])
         print("Context Saved ")
