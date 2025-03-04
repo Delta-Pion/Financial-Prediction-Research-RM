@@ -1,3 +1,11 @@
+from dotenv import load_dotenv
+from aider.coders import Coder
+from aider.models import Model
+
+load_dotenv()
+model = Model("openrouter/google/gemini-2.0-flash-001")
+coder = Coder.create(main_model=model, edit_format="ask")
+
 #!/usr/bin/env python3
 """
 RAG-Enhanced Aider Wrapper
@@ -128,7 +136,8 @@ def main():
         
         # Now run Aider with the original query
         # The context file is already part of Aider's working set
-        # print(f"Starting Aider with query: {query}")
+        print(f"Starting Aider with query: {query}")
+        
         # subprocess.run([AIDER_PATH, query])
         print("Context Saved ")
         
