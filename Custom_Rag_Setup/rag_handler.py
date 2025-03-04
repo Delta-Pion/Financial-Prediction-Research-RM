@@ -7,7 +7,7 @@ from ulid import ULID
 class VectorStorage:
     def __init__(self):
         self.model = SentenceTransformer('all-MiniLM-L6-v2')
-        self.client = chromadb.PersistentClient(path=".chroma")
+        self.client = chromadb.PersistentClient(path=r"E:\Artifical Intelligence\Research\Finance Research\Custom_Rag_Setup\.chroma")
         self.collection = self.client.get_or_create_collection(name="aider_rag")
     
     def store_chunks(self, chunks: list[str], metadata: dict = None):
