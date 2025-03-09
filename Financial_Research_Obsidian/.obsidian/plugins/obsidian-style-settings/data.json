@@ -1,0 +1,7 @@
+{
+  "minimal-style@@h1-l": true,
+  "minimal-style@@h1-color@@light": "#DE0000",
+  "minimal-style@@h1-color@@dark": "#D30000",
+  "minimal-style@@h1-size": "1.5em",
+  "minimal-style@@h2-size": "1.125em"
+}
