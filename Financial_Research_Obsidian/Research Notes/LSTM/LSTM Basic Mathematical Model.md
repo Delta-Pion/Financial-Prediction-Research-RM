@@ -1,6 +1,6 @@
 ## LSTM Basic Mathematical Model
 
-Alright, let's break down the mathematical model of an LSTM. I'll use standard notation to represent the different components.
+Alright, let's break down the mathematical model of an [[LSTM]]. I'll use standard notation to represent the different components.
 
 **Notation:**
 
@@ -76,3 +76,5 @@ The LSTM cell operates through a series of equations that govern the flow of inf
 *   The hidden state `h_t` is the output of the LSTM cell and is passed to the next time step.
 
 These equations describe the core operations of a single LSTM cell.  A complete LSTM network consists of multiple LSTM cells arranged in a sequence, allowing the network to process sequential data over time. The weights (`W`) and biases (`b`) are learned during the training process using optimization algorithms like backpropagation through time.
+
+The example for these equations is [[LSTM mathematical example|here]]]

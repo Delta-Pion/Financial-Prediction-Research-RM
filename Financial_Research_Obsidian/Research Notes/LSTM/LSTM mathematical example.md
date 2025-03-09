@@ -1,6 +1,6 @@
 ## LSTM Mathematical Example
 
-Alright, let's walk through a simplified example of an LSTM cell calculation with some hypothetical values. I'll keep the vector dimensions small for clarity.
+Alright, let's walk through a simplified example of an LSTM cell calculation with some hypothetical values. I'll keep the vector dimensions small for clarity. It is based on the equations given in [[LSTM Basic Mathematical Model]].
 
 **Assumptions:**
 

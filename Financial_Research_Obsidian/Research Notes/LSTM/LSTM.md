@@ -18,6 +18,8 @@ sequences of data. In simpler terms, they're good at remembering information fro
  4. Output Gate (o_t): This gate decides what information to output based on the cell state. It looks at the current input and the previous hidden state to determine what
     parts of the cell state to output. The cell state is put through a tanh layer and multiplied by the output of the output gate.
 
+## [[LSTM Basic Mathematical Model]] for basic understanding
+
 
 
 
