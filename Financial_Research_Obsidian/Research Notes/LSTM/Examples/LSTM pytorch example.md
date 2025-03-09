@@ -100,7 +100,7 @@ Over the course of this project, we will continue adding new code blocks to the 
 
 In this project, we will train an LSTM model to predict stock price movements. Before we can build the "crystal ball" to predict the future, we need historical stock price data to train our deep learning model. To this end, we will query the Alpha Vantage stock data API via a [popular Python wrapper](https://github.com/RomelTorres/alpha_vantage). For this project, we will obtain over 20 years of daily close prices for IBM from November 1999 to April 29, 2021. 
 
-![historical prices](figure01-history-price.png)
+![historical prices](Attatchments/figure01-history-price.png)
 
 Append the following code block to your **project.py** file. If you re-run the file now, it should generate a graph similar to above thanks to the powerful `matplotlib` library. 
 

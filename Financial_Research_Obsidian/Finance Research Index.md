@@ -3,5 +3,7 @@
 - ## [[research_plan|Plan]]
 - ## [[research_resources|Resources]]
 - [[LSTM]]
+	- [[LSTM pytorch example]]
+	- 
 
 

@@ -125,6 +125,9 @@ In more general terms:
 
 If you have vectors  v1, v2, ..., vn with shapes (d1,), (d2,), ..., (dn,) respectively, then concatenating them results in a vector v with shape (d1 + d2 + ... + dn,). The  
 elements of v are simply the elements of v1, v2, ..., vn placed one after another in that order.
+
+## Code Example using pytorch : [[LSTM pytorch example]]
+
    
 
 
