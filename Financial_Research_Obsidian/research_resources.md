@@ -60,3 +60,5 @@ This document contains a list of resources for the financial prediction research
 *   **Online Courses:** Coursera, edX, Udacity
 *   **Kaggle:** [https://www.kaggle.com/](https://www.kaggle.com/)
 *   **GitHub:** Search for open-source projects
+
+ 
