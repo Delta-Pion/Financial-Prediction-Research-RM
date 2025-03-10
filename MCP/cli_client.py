@@ -53,6 +53,7 @@ async def main():
     args = parser.parse_args()
 
     # Try to parse the arguments as a JSON object
+    print(f"Raw arguments: {args.arguments}")
     try:
         arguments = json.loads(args.arguments)
     except json.JSONDecodeError:
