@@ -1,7 +1,7 @@
-# RAG Context (Updated: 2025-03-04 22:40:54)
+# RAG Context (Updated: 2025-03-10 22:34:43)
 
 ## Query
-what is the concept of regimes in financial markets
+what is concept of regimes in financial markets
 
 ## Retrieved Context
 
@@ -9,10 +9,10 @@ what is the concept of regimes in financial markets
 will continue. As news disseminates at a faster rate and as more traders take advantage of this trend earlier on, the equilibrium price will be reached sooner. Any trade entered after this equilibrium price is reached will be unprofitable. REGIME SWITCHING* The concept of regimes is most basic to financial markets. What else are bull and bear markets if not regimes?
 
 ### Context Chunk 2
-for details.) These regime shifts are preannounced by the government, so no predictions of the shifts are necessary, though few people can predict the exact consequences of the regulatory changes. Some of the other most common financial or economic regimes studied are inflationary vs. recessionary regimes, high- vs. lowvolatility regimes, and mean-reverting vs. trending regimes.
+f not regimes? The desire to predict regime switches, which are also commonly known as turning points, is also as old as financial markets themselves. If our attempts to predict the switching from a bull to a bear market were even slightly successful, we could focus our *This section was adapted from an article I published in Automated Trader magazine. discussion to this one type of switching and call it a day. If only it were that easy.
 
 ### Context Chunk 3
-f not regimes? The desire to predict regime switches, which are also commonly known as turning points, is also as old as financial markets themselves. If our attempts to predict the switching from a bull to a bear market were even slightly successful, we could focus our *This section was adapted from an article I published in Automated Trader magazine. discussion to this one type of switching and call it a day. If only it were that easy.
+for details.) These regime shifts are preannounced by the government, so no predictions of the shifts are necessary, though few people can predict the exact consequences of the regulatory changes. Some of the other most common financial or economic regimes studied are inflationary vs. recessionary regimes, high- vs. lowvolatility regimes, and mean-reverting vs. trending regimes.
 
 ### Context Chunk 4
 at that time. Therefore, when judging the suitability of a strategy, one must pay particular attention to its performance in the most recent few years, and not be fooled by the overall performance, which inevitably includes some rosy numbers back in the old days. Finally, regime shifts in the financial markets can mean that financial data from an earlier period simply cannot be fitted to the same model that is applicable today.
