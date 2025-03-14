@@ -21,7 +21,7 @@ from rag_handler import VectorStorage
 # Configuration
 CONTEXT_FILE = r"E:\Artifical Intelligence\Research\Finance Research\Custom_Rag_Setup\rag_context.md"  # File that will be added to Aider's working set
 AIDER_PATH = r"C:\Users\Aditya\.local\bin\aider.exe"  # Path to Aider executable (modify if needed)
-MAX_CONTEXT_CHUNKS = 8  # Maximum number of context chunks to include
+MAX_CONTEXT_CHUNKS = 10  # Maximum number of context chunks to include
 
 def update_context_file(query, context_chunks):
     """
