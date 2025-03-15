@@ -3,3 +3,5 @@ sentence-transformers
 chromadb
 numpy
 python-ulid
+yfinance
+pandas
