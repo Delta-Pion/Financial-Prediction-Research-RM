@@ -172,6 +172,7 @@ than 1 is not suitable as a stand-alone strategy. For a strategy that
 achieves profitability almost every month, its (annualized) Sharpe
 ratio is typically greater than 2. For a strategy that is profitable al-
 most every day, its Sharpe ratio is usually greater than 3
+## More [[FINDING AND USING HISTORICAL  DATABASES#PERFORMANCE MEASUREMENT|Examples]] here
 
 # Drawdown
 First, let's quickly recap what a drawdown is. A drawdown measures the peak-to-trough decline during a specific period for an investment, trading account, or fund. It's a   
